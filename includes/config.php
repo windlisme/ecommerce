@@ -2,10 +2,10 @@
 <?php
 //making config as we need this everytime we can just use it through include_once
 //1st step for database php connection
-$serverName = "localhost";
-$dBUsername = "root";
-$dBPassword = "";
-$dBName = "electric-shop";
+$serverName = "qltv-db.cpwo840s438x.us-east-1.rds.amazonaws.com";
+$dBUsername = "admin";
+$dBPassword = "Luuthuyvotinh20";
+$dBName = "shop";
 
 //Before we can access data in the MySQL database, we need to be able to connect to the server i.e php
 $conn = new mysqli($serverName,$dBUsername,$dBPassword,$dBName );
